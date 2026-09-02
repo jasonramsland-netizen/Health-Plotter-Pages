@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Health Plotter</title>
+  <meta name="description" content="Health Plotter privacy policy and support.">
+  <style>
+    :root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif; background: #061735; color: #f6faff; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: radial-gradient(circle at 20% 0%, #123b83 0%, #061735 48%, #020b1d 100%); }
+    main { width: min(680px, calc(100% - 40px)); padding: 44px 0; }
+    .mark { width: 64px; height: 64px; border-radius: 18px; display: grid; place-items: center; background: linear-gradient(145deg, #123b83, #061735); border: 1px solid #315da2; box-shadow: 0 12px 35px #0008; }
+    .mark svg { width: 42px; height: 42px; fill: none; stroke: #49b9ff; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    .eyebrow { margin-top: 26px; color: #37d8d1; text-transform: uppercase; letter-spacing: .16em; font-size: 12px; font-weight: 700; }
+    h1 { margin: 10px 0 12px; font-size: clamp(38px, 8vw, 64px); letter-spacing: -.04em; }
+    p { color: #b9c7de; font-size: 18px; line-height: 1.55; }
+    .links { display: grid; gap: 14px; margin-top: 30px; }
+    a { display: flex; justify-content: space-between; align-items: center; padding: 18px 20px; border: 1px solid #315da2; border-radius: 16px; color: #f6faff; text-decoration: none; background: #0b2550cc; }
+    a:hover { border-color: #49b9ff; background: #123b83cc; }
+    .arrow { color: #37d8d1; font-size: 24px; }
+    footer { margin-top: 30px; color: #7e91b2; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true">
+      <svg viewBox="0 0 64 64"><path d="M6 34h12l7-13 8 26 8-18 5 5h12"/></svg>
+    </div>
+    <div class="eyebrow">Health Plotter</div>
+    <h1>Health data, in context.</h1>
+    <p>Read the privacy policy or find practical help with permissions, missing measurements, and comparisons.</p>
+    <div class="links">
+      <a href="privacy.html"><span>Privacy policy</span><span class="arrow" aria-hidden="true">→</span></a>
+      <a href="support.html"><span>Support guide</span><span class="arrow" aria-hidden="true">→</span></a>
+    </div>
+    <footer>Health Plotter is informational and is not a medical device or emergency service.</footer>
+  </main>
+</body>
+</html>

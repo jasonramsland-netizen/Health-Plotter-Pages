@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Health Plotter Support</title>
+  <meta name="description" content="Technical support for Health Plotter.">
+  <style>
+    :root { color-scheme: dark; --ink: #061735; --panel: #0d2a5c; --text: #f6faff; --muted: #b9c7de; --aqua: #37d8d1; --violet: #8d82ff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: radial-gradient(circle at 20% 0%, #123b83 0, var(--ink) 48rem); color: var(--text); font: 17px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; }
+    main { width: min(46rem, calc(100% - 2rem)); margin: 0 auto; padding: 4rem 0 5rem; }
+    .eyebrow { color: var(--aqua); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .78rem; }
+    h1 { font-size: clamp(2.2rem, 8vw, 3.8rem); line-height: 1.05; letter-spacing: -.04em; margin: .5rem 0 1rem; }
+    h2 { font-size: 1.35rem; line-height: 1.2; margin: 2.5rem 0 .7rem; }
+    p, ul { margin: .75rem 0; }
+    li { margin: .35rem 0; }
+    .card { border: 1px solid rgba(185,199,222,.24); border-radius: 1rem; padding: 1.2rem; background: rgba(13,42,92,.68); }
+    .notice { border-color: rgba(255, 197, 89, .6); color: #ffe7ae; }
+    a { color: var(--aqua); }
+    footer { border-top: 1px solid rgba(185,199,222,.24); margin-top: 3rem; padding-top: 1.5rem; color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Health Plotter</div>
+    <h1>Support</h1>
+    <div class="card notice"><strong>Launch note:</strong> The address below is the repository author's existing contact and is provisional. Replace it with a dedicated support mailbox if needed before publishing.</div>
+
+    <h2>Contact</h2>
+    <div class="card"><p>For help with permissions, missing measurements, or a comparison that looks wrong, email <a href="mailto:jasonramsland@gmail.com?subject=Health%20Plotter%20support">jasonramsland@gmail.com</a>.</p><p>Include your iPhone model, iOS version, Health Plotter version, what you expected, what happened, the comparison and date range involved, and a screenshot with personal information removed.</p></div>
+
+    <h2>Try these steps first</h2>
+    <ul>
+      <li>Open iPhone Settings and review Health Plotter under Apps.</li>
+      <li>Confirm that your devices and source apps are syncing with Apple Health.</li>
+      <li>Choose a longer lookback window and use Refresh in Health Plotter.</li>
+      <li>Review the evidence and methodology sections if a result looks surprising.</li>
+    </ul>
+
+    <h2>Common questions</h2>
+    <p><strong>Why is a metric missing?</strong> Apple does not tell Health Plotter whether a read permission was denied. A missing value can mean the permission is off or that no source app has recorded it.</p>
+    <p><strong>Why is sensitive activity not shown?</strong> Turn on Sensitive activity in Health Plotter, complete the permission request, and refresh. It is optional and never appears in default comparisons.</p>
+    <p><strong>Can I send a Health export?</strong> Please do not attach one unless support specifically asks for it. A redacted screenshot is usually enough to begin troubleshooting.</p>
+
+    <h2>Privacy and safety</h2>
+    <p>Health Plotter reads HealthKit data on your device, does not write to HealthKit, and does not require an account. Deleting the App removes its local preferences and saved comparisons but does not delete Apple Health records. Manage those records in the Health app.</p>
+    <p>Health Plotter is informational and is not a medical device, diagnostic service, or emergency service. For urgent symptoms or medical decisions, contact a qualified clinician or local emergency services.</p>
+
+    <footer><a href="privacy.html">Read the Health Plotter Privacy Policy</a></footer>
+  </main>
+</body>
+</html>
+
