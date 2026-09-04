@@ -51,7 +51,7 @@
     <p>The current App requests read access only. It does <strong>not</strong> write data to HealthKit. Apple controls each permission and intentionally does not tell apps whether a user denied read access to a particular type. A missing result can therefore mean that permission is off or that no source data exists.</p>
 
     <h2>How the App uses the information</h2>
-    <p>Health Plotter groups available values by day, calculates local summaries, compares metrics on recorded and unrecorded factor days, and displays charts, counts, confidence intervals, effect sizes, evidence labels, and methodology notes. Days missing the metric or factor are excluded instead of being treated as zero.</p>
+    <p>Health Plotter groups available values by day, calculates local summaries, compares metrics across two clearly labeled factor cohorts, and displays charts, counts, confidence intervals, effect sizes, evidence labels, and methodology notes. Binary factors use recorded and no-entry days; derived factors use their documented threshold or schedule split. Days missing the metric or factor are excluded instead of being treated as zero.</p>
     <p>When the device supports Apple's on-device language model and you ask for an explanation, the App can pass a sanitized aggregate summary to that on-device model. It does not pass raw HealthKit samples or sample dates.</p>
     <p>The App does not use HealthKit information for advertising, profiling, unrelated marketing, or service eligibility. It does not sell HealthKit information.</p>
 
